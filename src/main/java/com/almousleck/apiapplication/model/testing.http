@@ -1,0 +1,47 @@
+
+#Post method
+POST http://localhost:8080/api/employees/save
+Content-Type: application/json
+
+{
+  "firstName": "Testing",
+  "lastName": "Tested",
+  "email": "test@gmail.com"
+}
+
+<> 2022-10-16T162312.200.json
+<> 2022-10-16T162140.200.json
+
+###
+# Get all employees method
+GET http://localhost:8080/api/employees
+
+# Get one Employee
+###
+GET http://localhost:8080/api/employees/2
+
+# Update Method
+###
+PUT localhost:8080/api/employees/update/2
+Content-Type: application/json
+
+{
+  "firstName": "Mark Ag",
+  "lastName": "Alba",
+  "email": "mark@gmail.com"
+}
+
+
+###
+# Delete method
+DELETE http://localhost:8080/api/employees/5
+
+###
+# Create an Account
+POST http://localhost:8080/api/accounts
+Content-Type: application/json
+
+{
+  "username": "Nelson",
+  "password": "password"
+}

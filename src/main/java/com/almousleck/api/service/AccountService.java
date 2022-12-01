@@ -5,7 +5,6 @@ import com.almousleck.apiapplication.model.Account;
 import java.util.List;
 
 public interface AccountService {
-
     // create account
     Account createAccount(Account account);
     // find account by username

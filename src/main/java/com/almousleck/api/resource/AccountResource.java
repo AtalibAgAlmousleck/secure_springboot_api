@@ -7,7 +7,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
 import static com.almousleck.apiapplication.resource.EmployeeResource.getLocation;
 
 @RestController

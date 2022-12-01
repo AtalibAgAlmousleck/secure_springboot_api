@@ -11,15 +11,12 @@ import java.util.List;
 @Component
 @RequiredArgsConstructor
 public class ApplicationRun implements CommandLineRunner {
-
     private final RoleRepository roleRepository;
-
     @Override
     public void run(String... args) throws Exception {
         Role roleUser = new Role(1L, "199", "ROLE_USER");
         Role roleAdmin = new Role(2L, "120", "ROLE_ADMIN");
-
-        // Save
+         //Save
         //roleRepository.saveAll(List.of(roleUser, roleAdmin));
     }
 }
